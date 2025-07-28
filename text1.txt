@@ -1,0 +1,5 @@
+changes to make:
+
+1. sync mock data automatically should send the approval requests and stuff like agentic ai systems that automate work
+2. the admin view should be in menu bar as a button as approvals section where have to put the info ( same as admin page )
+3. option for bulk approval or rejections
