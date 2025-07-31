@@ -40,6 +40,10 @@ A full-stack HR portal for managing employee attendance, automating leave reques
 ![Admin Panel](./assets/admin.png)
 ![Admin Panel new](./assets/approved.png)
 
+### 🔹 User Approval Requests Panel
+
+![Admin Panel new 1](./assets/user_dashboard.png)
+
 ---
 
 ## 🧠 How OpenAI is Used
