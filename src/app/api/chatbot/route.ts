@@ -24,7 +24,7 @@ If the user's message is a request for leave or work-from-home, respond with:
   "intent": "createApproval",
   "payload": {
     "type": "Leave" or "Work From Home",
-    "reason": "short summary"
+    "reason": "create a personalized response for the user like a realistic leave short application"
   },
   "reply": " Your request has been submitted."
 }
