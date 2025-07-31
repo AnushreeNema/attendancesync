@@ -32,7 +32,8 @@ A full-stack HR portal for managing employee attendance, automating leave reques
 
 ### 🔹 Auto-Generated Leave Request (GPT)
 
-![Leave Request AI](./screenshots/leave-request.png)
+![Leave Request AI](./assets/automatic_leave_request_send.png)
+![Leave Request Success AI](./assets/request_send.png)
 
 ### 🔹 Admin Approval Panel
 
