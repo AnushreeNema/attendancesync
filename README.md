@@ -1,37 +1,50 @@
-# 🕒 AttendanceSync
+# 🧠 AttendanceSync
 
-**AttendanceSync** is a smart, AI-integrated attendance and HR management system built for modern teams. It provides a sleek user dashboard to log attendance, request leave, and communicate directly with HR via a conversational chatbot — all in real-time.
+A full-stack HR portal for managing employee attendance, automating leave request generation using OpenAI, and streamlining admin approvals with a modern, responsive UI.
 
 ---
 
 ## 🚀 Features
 
-### ✅ Attendance Dashboard
-- Automatically logs user attendance on login.
-- Marks users **Absent** if no login is recorded.
-- Real-time display of attendance status (Present, Absent, Late).
-
-### 📩 Leave & Remote Work Requests
-- Users can submit:
-  - **Work From Home**
-  - **Sick Leave**
-  - **Casual Leave**
-- Requests are sent to the Admin dashboard for **approval or rejection**.
-
-### 🤖 AI-Powered HR Chatbot
-- Built using the **OpenAI API**.
-- Answers employee queries related to HR, leave policies, and attendance.
-- Can **automatically generate and send leave requests** to admin when asked in natural language.
+- ✅ **User Dashboard** for logging attendance, viewing history
+- ✉️ **Auto-generated leave requests** using OpenAI (based on attendance patterns)
+- 🔒 **Role-based access** for Employees and Admins
+- 🧾 **Admin Panel** to review, approve, or reject leave requests
+- 📊 **Attendance summary and tracking** per user
 
 ---
 
-## 🧠 Tech Stack
+## 🛠️ Tech Stack
 
-| Layer         | Technology               |
-|---------------|---------------------------|
-| Frontend      | React, Next.js, TypeScript, CSS |
-| Backend       | Node.js                   |
-| AI Integration| OpenAI API                |
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS
+- **Backend:** Node.js, Next.js
+- **AI Integration:** OpenAI GPT API
+- **Database:** PostgreSQL
+- **Auth:** NextAuth
 
 ---
 
+## 📸 Screenshots
+
+### 🔹 User Attendance Dashboard
+
+![User Dashboard](./assets/main_dashboard.png)
+
+### 🔹 Auto-Generated Leave Request (GPT)
+
+![Leave Request AI](./screenshots/leave-request.png)
+
+### 🔹 Admin Approval Panel
+
+![Admin Panel](./screenshots/admin-panel.png)
+
+---
+
+## 🧠 How OpenAI is Used
+
+We use OpenAI's GPT API to:
+
+- Draft human-like leave requests
+- Pre-fill reasons, dates, and justification for approval
+
+---
