@@ -37,7 +37,7 @@ A full-stack HR portal for managing employee attendance, automating leave reques
 
 ### 🔹 Admin Approval Panel
 
-![Admin Panel](./screenshots/admin-panel.png)
+![Admin Panel](./assets/admin.png)
 
 ---
 
